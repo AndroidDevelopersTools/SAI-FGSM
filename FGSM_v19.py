@@ -247,7 +247,7 @@ for i, eps in enumerate(epsilons):
     for iterative_times in range(2, 3):
 
 
-        for j in range(160, 300):
+        for j in range(1000):
             current_img = image[j]
             current_label = pre_process_label(int(label[j]), 1000)
             demo = current_img
